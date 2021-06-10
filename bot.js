@@ -1,3 +1,9 @@
+//we will run our bot on HEROKU we would push this to GitHub
+//we would create a new app on heroku then connect to github type in repo name and search
+//if we make changes to our code and push it will update server 
+//set up an env var for the bot token in heroku in variables
+//finally do a manual deploy and get confirmation i logs that the bot is running
+
 require('dotenv').config()
 
 const Discord = require('discord.js')
